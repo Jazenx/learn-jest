@@ -4,7 +4,7 @@
   "description": "learn jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll",
+    "test": "jest --watch",
     "coverage": "npx jest --coverage"
   },
   "author": "Jason <jason.zhour@gmail.com>",
@@ -12,6 +12,7 @@
   "dependencies": {
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
+    "axios": "^0.19.2",
     "jest": "^26.1.0"
   }
 }
