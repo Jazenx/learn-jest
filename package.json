@@ -1,0 +1,17 @@
+{
+  "name": "jason-jest-practice",
+  "version": "1.0.0",
+  "description": "learn jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "coverage": "npx jest --coverage"
+  },
+  "author": "Jason <jason.zhour@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "jest": "^26.1.0"
+  }
+}
